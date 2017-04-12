@@ -1,0 +1,17 @@
+{
+  "name": "atividade01",
+  "description": "Atividade sobre Workflow",
+  "main": "index.js",
+  "authors": [
+    "Ale Paula Sell"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
