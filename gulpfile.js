@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var watch = require('gulp-watch');
 var htmlmin = require('gulp-htmlmin');
 
 // task para o scss
@@ -19,7 +18,8 @@ gulp.task('html', function() {
 
 // tarefa para watch 
 gulp.task('watch', function(){
-	gulp.watch('source/**/*.*', ['scss','html']);
+	gulp.watch('source/scss/*.scss', ['scss']);
+	gulp.watch('source/*.html', ['html']);
 });
 
 
