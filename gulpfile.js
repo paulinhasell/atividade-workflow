@@ -19,7 +19,8 @@ gulp.task('html', function() {
 
 // tarefa para watch 
 gulp.task('watch', function(){
-	gulp.watch('source/**/*.*', ['scss','html']);
+	gulp.watch('source/scss/*.scss', ['scss']);
+	gulp.watch('source/*.html', ['html']);
 });
 
 
